@@ -22,6 +22,7 @@ Biegung eines Stabes berechnen.
 
 
 \subsection{Einseitige Biegung des Stabes}
+
 Wird ein Stab, wobei die geometrische Form des 
 Querschnitts allgemein nicht von Bedeutung für den
 Ablauf des Versuchs ist, an einem seiner Enden
@@ -95,6 +96,36 @@ Durchbiegung $D(x)$ der Zusammenhang
 \end{equation}
 \noindent für $0 \leq x \leq L$.
 
+
+
+
+\subsection{Zweiseitige Biegung eines Stabes}
+
+Wenn ein Stab nun nicht nur an einem Ende, sondern
+an seinen beiden Enden eingespannt wird, wie in 
+der Abbildung (VERWEIS) zu sehen ist, greift nur 
+noch das Drehmoment 
+\begin{equation}
+    M_{F} = -\frac{F}{2}x
+\end{equation}
+\noindent an der Querschnittsfläche Q an, für die
+$0 \leq x \leq L/2$ gilt. Im Gegensatz dazu gilt für 
+$L/2 \leq x \leq L$ nun 
+\begin{equation}
+    M_{F} = -\frac{F}{2}(L-x).
+\end{equation}
+Mittels dieser Gleichungen und der Annahme, dass 
+in der Mitte des Stabes die Biegekurve $D(x)$ eine
+horizontale Tangente besitzt, ergibt sich aus der Gleichung
+(VERWEIS)
+für $0 \leq x \leq L/2$
+\begin{equation}
+    D(x) = \frac{F}{48 E I} \left( 3 L^2 x - 4 x^3 \right)
+\end{equation}
+\noindent beziehungsweise für $L/2 \leq x \leq L$
+\begin{equation}
+    D(x) = \frac{F}{48 E I} \left( 4 x^3 - 12 L x^2 + 9 L^2 x - L^3 \right)
+\end{equation}
 
 
 
