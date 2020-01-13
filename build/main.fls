@@ -332,12 +332,12 @@ INPUT ./content/ziel.tex
 INPUT ./content/ziel.tex
 INPUT ./content/theorie.tex
 INPUT ./content/theorie.tex
-INPUT ./content/durchfuehrung.tex
-INPUT ./content/durchfuehrung.tex
-INPUT ./1.jpg
-INPUT ./1.jpg
 INPUT /home/nico/.local/texlive/2019/texmf-var/luatex-cache/generic/fonts/otl/lmroman8-regular.luc
 INPUT /home/nico/.local/texlive/2019/texmf-var/luatex-cache/generic/fonts/otl/lmroman5-regular.luc
+INPUT ./content/durchfuehrung.tex
+INPUT ./content/durchfuehrung.tex
+INPUT ./1.jpg
+INPUT ./1.jpg
 INPUT /home/nico/.local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
 INPUT /home/nico/.local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
 INPUT /home/nico/.local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
