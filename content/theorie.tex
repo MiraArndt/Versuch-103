@@ -1,4 +1,133 @@
 \section{Theorie}
 \label{sec:Theorie}
 
+\subsection{Allgemein}
+
+Wenn äußere Kräfte auf einen Körper wirken, sodass 
+sich dieser verformt, können Spannungen auftreten.
+Es wird unterschieden zwischen der Normalspannung,
+welche senkrecht zur Oberfläche steht und der 
+Tangentialspannung, welche parallel zur Oberfläche 
+verläuft. Wird durch eine von außenwirkende Kraft 
+die Länge L eines Materials um $\Delta L $verkürzt, 
+so entsteht eine Spannung, welche mithilfe
+des Hookschen Gesetzes
+\begin{equation}
+    \sigma = E \frac{\Delta L}{L}
+\end{equation}
+\noindent beschrieben werden kann, wobei $E$ als
+Elastizitätsmodul bezeichnet wird. Dieser 
+Proportionalitätsfaktor lässt sich auch über die 
+Biegung eines Stabes berechnen.
+
+
+\subsection{Einseitige Biegung des Stabes}
+
+Wird ein Stab, wobei die geometrische Form des 
+Querschnitts allgemein nicht von Bedeutung für den
+Ablauf des Versuchs ist, an einem seiner Enden
+eingespannt und zusätzlich an dem anderen Ende mit 
+einem Gewicht belastet, so lässt sich beobachten,
+dass die Durchbiegung des Stabes mit zunehmenden
+Abstand von dem eingespannten Ende ebenfalls 
+zunimmt (siehe dazu Abbildung (VERWEIS)).
+
+Durch die an der Stelle L wirkenden Kraft, wird auf
+die an Querschnittsfläche an der Stelle x ein 
+Drehmoment $M_F$ ausgeübt, welches eine Verdrehung 
+des Stabes hervorruft. Die oberen Schichten des 
+Stabes werden gestreckt und die unteren gestaucht. 
+Der Stab verdreht sich so lange weiter, bis ein 
+Gleichgewicht zwischen dem Drehmoment $M_F$
+und dem durch die Spannungen zwischen den gestauchten
+beziehungsweise gestreckten Schichten des Stabes 
+enstehenden Drehmoments $M_{\sigma}$ entsteht.
+Es existiert aber auch eine Schicht, in der keine 
+Spannungen auftreten. Diese wird als neutrale
+Faser bezeichnet.
+
+Da die Kraft, die auf den Stab wirkt, senkrecht 
+zu dem Kraftarm ist, gilt für das Drehmoment 
+$M_F$, welches auf die Querschnittsfläche an der
+Stelle $x$ wirkt
+\begin{equation}
+    M_F = F \cdot (L-x).
+\end{equation}
+\noindent
+Im Gegensatz dazu lässt sich das Drehmoment 
+$M_{\sigma}$ mit 
+\begin{equation}
+    \int\limits_Q \! y \cdot \sigma (y) \, \mathrm{d}q
+\end{equation}
+\noindent berechnen, wobei y den Abstand des 
+Flächenelements $dq$ von der neutralen Faser
+angibt (siehe Abbildung). Weiterhin kann $\sigma (y)$
+mithilfe von Gleichung (VERWEIS) umgeschrieben werden,
+sodass sich 
+\begin{equation}
+    \sigma (y) = E \frac{\delta x}{\Delta x}
+\end{equation}
+\noindent ergibt. Hierbei gibt $\delta x$ die 
+Änderung der Länge von $\Delta x$ infolge der
+Biegung des Stabes.
+ 
+Aus der Abbildung (VERWEIS) lässt sich für 
+$\delta x \ll \Delta x$ entnehmen, dass sich 
+die Längenänderung $\delta x$ als 
+\begin{equation}
+    \delta x = y \Delta \phi = y \frac{\Delta x}{R}
+\end{equation}
+\noindent schreiben lässt. Mit der Annahme, dass mit 
+$R$ ein geringer Krümmungsradius vorliegt, lässt sich
+das Gleichgewicht von $M_F$ und $M_{\sigma}$ mit den
+Gleichungen (VERWEIS) zu 
+\begin{equation}
+    E \frac{\mathrm{d}^2 D}{\mathrm{d} x^2} \int\limits_Q \! y^2\, \mathrm{d}q
+\end{equation}
+\noindent umformulieren. Das Integral
+\begin{equation}
+    I = \int\limits_Q \! y^2\, \mathrm{d}q
+\end{equation}
+\noindent wird als Flächenträgheitsmoment bezeichnet.
+Zusammenfassend ergibt sich also für die gesuchte 
+Durchbiegung $D(x)$ der Zusammenhang
+\begin{equation}
+    D(x) = \frac{F}{2 E I} \left( L x^2 - \frac{x^3}{3} \right)
+\end{equation}
+\noindent für $0 \leq x \leq L$.
+
+
+
+
+\subsection{Zweiseitige Biegung eines Stabes}
+
+Wenn ein Stab nun nicht nur an einem Ende, sondern
+an seinen beiden Enden eingespannt wird, wie in 
+der Abbildung (VERWEIS) zu sehen ist, greift nur 
+noch das Drehmoment 
+\begin{equation}
+    M_{F} = -\frac{F}{2}x
+\end{equation}
+\noindent an der Querschnittsfläche Q an, für die
+$0 \leq x \leq L/2$ gilt. Im Gegensatz dazu gilt für 
+$L/2 \leq x \leq L$ nun 
+\begin{equation}
+    M_{F} = -\frac{F}{2}(L-x).
+\end{equation}
+Mittels dieser Gleichungen und der Annahme, dass 
+in der Mitte des Stabes die Biegekurve $D(x)$ eine
+horizontale Tangente besitzt, ergibt sich aus der Gleichung
+(VERWEIS)
+für $0 \leq x \leq L/2$
+\begin{equation}
+    D(x) = \frac{F}{48 E I} \left( 3 L^2 x - 4 x^3 \right)
+\end{equation}
+\noindent beziehungsweise für $L/2 \leq x \leq L$
+\begin{equation}
+    D(x) = \frac{F}{48 E I} \left( 4 x^3 - 12 L x^2 + 9 L^2 x - L^3 \right)
+\end{equation}
+
+
+
+
 \cite{sample}
