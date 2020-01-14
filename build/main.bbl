@@ -19,6 +19,19 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{chemie}{online}{}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labeltitlesource}{title}
+      \field{title}{Chemie.de}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.chemie.de/lexikon/Elastizit%C3%A4tsmodul.html
+      \endverb
+      \verb{url}
+      \verb https://www.chemie.de/lexikon/Elastizit%C3%A4tsmodul.html
+      \endverb
+    \endentry
     \entry{sample}{manual}{}
       \name{author}{1}{}{%
         {{hash=2821a70f99517ac7757c95300d43e95c}{%
@@ -38,6 +51,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Versuchsanleitung-Biegung elastischer Stäbe}
+      \true{nocite}
     \endentry
     \entry{matplotlib}{article}{}
       \name{author}{1}{}{%
