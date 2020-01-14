@@ -4,6 +4,10 @@
 \contentsline {section}{\numberline {2}Theorie}{3}{section.2}% 
 \contentsline {section}{\numberline {3}Durchführung}{3}{section.3}% 
 \contentsline {section}{\numberline {4}Auswertung}{3}{section.4}% 
-\contentsline {section}{\numberline {5}Diskussion}{5}{section.5}% 
-\contentsline {section}{\numberline {6}Anhang}{5}{section.6}% 
-\contentsline {section}{\nonumberline Literatur}{5}{section*.5}% 
+\contentsline {subsection}{\numberline {4.1}Runder Stab einseitig eingespannt}{3}{subsection.4.1}% 
+\contentsline {subsection}{\numberline {4.2}Eckiger Stab einseitig eingespannt}{5}{subsection.4.2}% 
+\contentsline {subsection}{\numberline {4.3}Runder Stab beidseitig eingespannt}{7}{subsection.4.3}% 
+\contentsline {subsection}{\numberline {4.4}Eckiger Stab beidseitig eingespannt}{9}{subsection.4.4}% 
+\contentsline {section}{\numberline {5}Diskussion}{10}{section.5}% 
+\contentsline {section}{\numberline {6}Anhang}{12}{section.6}% 
+\contentsline {section}{\nonumberline Literatur}{14}{section*.15}% 
