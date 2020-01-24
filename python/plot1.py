@@ -11,7 +11,10 @@ d=ufloat(0.009980,0.000012)
 b=ufloat(0.009995,0.000012)
 h=ufloat(0.009960,0.000013)
 m=ufloat(0.0641,0.0008)
-print(5.3327/(2*m*((d/2)**4/4)*np.pi))
+I_Rund=ufloat(4.870*10**(-10),0.023*10**(-10)) 
+#print(np.pi/4*(d/2)**4)
+print(5.3327/(2*m*I_Rund))
+
 x1=x*100
 xrund=["%.0f" % elem for elem in x1]
 
