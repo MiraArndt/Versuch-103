@@ -11,8 +11,8 @@ entnommen werden.
 \begin{figure}[h]
     \centering
     \includegraphics[width=10cm]{Theorie1.png}
-    \label{fig:theorie1}
-    \caption{Dehnung eines Stabes durch den Einfluss einer Normalspannung}
+    \caption{Dehnung eines Stabes durch den Einfluss einer Normalspannung (Siehe \cite{sample})}
+      \label{fig:theorie1}
 \end{figure}
 \noindent
 Es wird unterschieden zwischen der Normalspannung,
@@ -46,12 +46,12 @@ zunimmt (siehe dazu Abbildung \ref{fig:theorie2}.
 \begin{figure}[h]
     \centering
     \includegraphics[width=10cm]{Theorie2.png}
+    \caption{Durchbiegung eines elastischen Stabes unter dem Einfluss einer Kraft bei einseitige Einspannung (Siehe \cite{sample})}
     \label{fig:theorie2}
-    \caption{Durchbiegung eines elastischen Stabes unter dem Einfluss einer Kraft bei einseitige Einspannung}
 \end{figure}
 \noindent
-Durch die an der Stelle L wirkenden Kraft, wird auf
-die an Querschnittsfläche an der Stelle x ein 
+Durch die an der Stelle $x=L$ wirkende Kraft, wird auf
+die Querschnittsfläche an der Stelle x ein 
 Drehmoment $M_F$ ausgeübt, welches eine Verdrehung 
 des Stabes hervorruft. Die oberen Schichten des 
 Stabes werden gestreckt und die unteren gestaucht. 
@@ -81,14 +81,14 @@ $M_{\sigma}$ mit
 \end{equation}
 \noindent berechnen, wobei y den Abstand des 
 Flächenelements $dq$ von der neutralen Faser
-angibt (siehe Abbildung \ref{fig:theorie 3}). 
+angibt (siehe Abbildung \ref{fig:theorie3}). 
 
 
 \begin{figure}[h]
     \centering
     \includegraphics[width=10cm]{Theorie3.png}
-    \label{fig:theorie1}
-    \caption{Querrschnitt des Stabes zur Berechnung des Drehmoments $M_{\sigma}$}
+    \caption{Querrschnitt des Stabes zur Berechnung des Drehmoments $M_{\sigma}$ (Siehe \cite{sample})}
+    \label{fig:theorie3}
 \end{figure}
 \noindent
 
@@ -101,14 +101,14 @@ sodass sich
 \end{equation}
 \noindent ergibt. Hierbei gibt $\delta x$ die 
 Änderung der Länge von $\Delta x$ infolge der
-Biegung des Stabes.
+Biegung des Stabes an.
  
 
 \begin{figure}[h]
     \centering
     \includegraphics[width=10cm]{Theorie4.png}
+    \caption{Skizze zur Berechnung der Normalspannung $\sigma (y)$ in einem gebogenen Stab (Siehe \cite{sample})}
     \label{fig:theorie4}
-    \caption{Skizze zur Berechnung der Normalspannung $\sigma (y)$ in einem gebogenen Stab}
 \end{figure}
 
 \noindent
@@ -132,7 +132,22 @@ Gleichungen \ref{eq:2} und \ref{eq:3} zu
     I = \int\limits_Q \! y^2\, \mathrm{d}q
     \label{eq:7}
 \end{equation}
-\noindent wird als Flächenträgheitsmoment bezeichnet.
+\noindent wird als Flächenträgheitsmoment bezeichnet.Das Flächenträgheitsmoment eines runden Stabes beträgt
+
+\begin{equation}
+    I_{Rund}= \frac{\pi}{4} \cdot R^4.
+    \label{eq:rund}
+\end{equation}
+
+\noindent Das Flächenträgheitsmoment eines eckigen Stabes beträgt
+
+\begin{equation}
+    I_{Eckig}=\frac{h*b^3}{12}.
+    \label{eq:eckig}
+\end{equation}
+
+
+
 Zusammenfassend ergibt sich also für die gesuchte 
 Durchbiegung $D(x)$ der Zusammenhang
 \begin{equation}
@@ -150,8 +165,8 @@ Durchbiegung $D(x)$ der Zusammenhang
 \begin{figure}[h]
     \centering
     \includegraphics[width=10cm]{Theorie5.png}
-    \label{fig:theorie5}
     \caption{Durchbiegung eines zweiseitig aufgelegten Stabes}
+    \label{fig:theorie5}
 \end{figure}    
 \noindent
 Wenn ein Stab nun nicht nur an einem Ende, sondern
@@ -170,7 +185,7 @@ $L/2 \leq x \leq L$ nun
     \label{eq:10}
 \end{equation}
 Mittels dieser Gleichungen und der Annahme, dass 
-in der Mitte des Stabes die Biegekurve $D(x)$ eine
+in der Mitte des Stabes die Durchbiegung $D(x)$ eine
 horizontale Tangente besitzt, ergibt sich aus der Gleichung
 \ref{eq:6}
 für $0 \leq x \leq L/2$
